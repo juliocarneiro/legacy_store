@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "308616441382",
+    "firebase_url": "https://legacystore-22eee.firebaseio.com",
+    "project_id": "legacystore-22eee",
+    "storage_bucket": "legacystore-22eee.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:308616441382:android:6f0326ebc6dd7a882e00e7",
+        "android_client_info": {
+          "package_name": "br.com.legacystore.legacy_store"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "308616441382-fjt841iiljuuvlppem7crmcbrjp8so5i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEVvT5WuLWPfh97km8R6tJFXBbfUZ2SAw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "308616441382-fjt841iiljuuvlppem7crmcbrjp8so5i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

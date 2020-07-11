@@ -28,7 +28,7 @@ class DrawerTile extends StatelessWidget {
                 size: 32,
                 color: currentPage == page
                     ? primaryColor
-                    : const Color.fromRGBO(229, 229, 229, 1),
+                    : const Color.fromRGBO(0, 0, 0, 0.3),
               ),
             ),
             Text(title,
@@ -36,7 +36,7 @@ class DrawerTile extends StatelessWidget {
                     fontSize: 16,
                     color: currentPage == page
                         ? primaryColor
-                        : const Color.fromRGBO(229, 229, 229, 1))),
+                        : const Color.fromRGBO(0, 0, 0, 0.3))),
           ],
         ),
       ),

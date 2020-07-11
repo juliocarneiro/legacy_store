@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:legacy_store/screens/base/base_screen.dart';
 import 'package:legacy_store/screens/login/login_screen.dart';
+import 'package:legacy_store/models/product_manager.dart';
 import 'package:legacy_store/screens/signup/signup_screen.dart';
 import 'package:provider/provider.dart';
 
@@ -13,9 +14,17 @@ void main() {
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return ChangeNotifierProvider(
-      create: (_) => UserManager(),
-      lazy: false,
+    return MultiProvider(
+      providers: [
+        ChangeNotifierProvider(
+          create: (_) => UserManager(),
+          lazy: false,
+        ),
+        ChangeNotifierProvider(
+          create: (_) => ProductManager(),
+          lazy: false,
+        )
+      ],
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
         title: 'Legacy Store',
